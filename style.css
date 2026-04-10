@@ -180,8 +180,28 @@ textarea {
 .footer{
     background:#222;
     color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:50px;
-    font-size:14px;
+    margin-top:60px;
 }
+
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    padding:40px 60px;
+    gap:40px;
+}
+
+.footer h3{
+    margin-bottom:10px;
+}
+
+.footer p{
+    font-size:14px;
+    line-height:1.6;
+}
+
+.footer-bottom{
+    text-align:center;
+    padding:15px;
+    border-top:1px solid rgba(255,255,255,0.2);
+    font-size:13px;
+}   
