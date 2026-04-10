@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Latihan CBT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>CBT Therapy</h2>
+    <ul>
+        <li><a href="index.html">Narasi</a></li>
+        <li><a href="bacaan.html">Bahan Bacaan</a></li>
+        <li><a href="cbt.html">Latihan CBT</a></li>
+        <li><a href="video.html">Video</a></li>
+    </ul>
+</nav>
+
+<div class="hero small">
+    <h1>Latihan CBT Interaktif</h1>
+    <p>Ikuti langkah-langkah berikut untuk membantu mengelola pikiran negatif Anda.</p>
+</div>
+
+
+<div class="container">
+
+    <div class="step-box">
+        <h3>1. Apa yang kamu rasakan?</h3>
+        <textarea id="step1" placeholder="Contoh: Saya merasa cemas karena takut gagal..."></textarea>
+    </div>
+  
+    <div class="step-box">
+        <h3>2. Pikiran negatif apa yang muncul?</h3>
+        <textarea id="step2" placeholder="Contoh: Saya pasti gagal dan tidak mampu..."></textarea>
+    </div>
+
+    <div class="step-box">
+        <h3>3. Apa bukti bahwa pikiran itu benar?</h3>
+        <textarea id="step3" placeholder="Tuliskan bukti nyata..."></textarea>
+    </div>
+
+    <div class="step-box">
+        <h3>4. Apakah ada sudut pandang lain?</h3>
+        <textarea id="step4" placeholder="Contoh: Saya sudah berusaha dan punya peluang berhasil..."></textarea>
+    </div>
+
+    <div style="text-align:center;">
+        <button onclick="prosesCBT()">Proses CBT</button>
+    </div>
+    
+    <div class="result-box">
+        <h2>Hasil Refleksi</h2>
+        <p id="output"></p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+<footer class="footer">
+    <p>© 2026 CBT Therapy | Media Edukasi untuk Mengelola Stres dan Pikiran Negatif</p>
+</footer>
+</body>
+</html>
